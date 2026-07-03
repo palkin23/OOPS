@@ -34,10 +34,10 @@ int main()
     // Shape s;
 
     // Pointer to abstract class
-    // Shape* s = new Circle();
-    Circle c;
+    Shape* s = new Circle();
+    //Circle c;
 
     // Output: Drawing Circle
-    c.draw();
-    c.me();
+    s->draw();
+    s->me();
 }
